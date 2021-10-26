@@ -1,0 +1,62 @@
+/*front page*/
+/*highlight banner */
+#front-banner {
+    background: #cecece;
+display: block;
+width: 100%;
+height: 500px;
+} 
+#front-banner .container{
+background: #eee;
+width: 100%;
+height: 500px;
+transform: translate(0%, 15%);
+}
+
+/*part 2 - who we are*/
+.whoweare {
+    margin-top: 100px;
+    height: 500px;
+}
+
+.whoweare .col-4 {
+    height: 400px;
+}
+.more-btn {
+    text-align: right;
+}
+
+/*part3 - committment*/
+#committment.content-wrapper {
+    background: #1a150a;
+    color: #ffffff;
+    text-align: center;
+    height: 80vh;
+    padding-top: 50px;
+}
+
+#committment .container .row {
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+#committment .container .row .col-3 {
+    height: 300px;
+    background: gray;
+}
+
+.st {
+    align-self: center;
+}
+.nd {
+    align-self: end;
+}
+
+.rd {
+    align-self: start;
+}
+
+/*part4 -latest*/
+#latest {
+    height: 500px;
+}
