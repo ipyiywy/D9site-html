@@ -2,6 +2,11 @@
 .site-header {
     background: #ffffff;
 }
+/*footer*/
+footer {
+    margin-top: 50px;
+}
+
 /*front page*/
 .section {
     display: block;
@@ -27,12 +32,12 @@ transform: translate(0%, 15%);
     margin-top: 100px;
     height: 500px;
 }
-
 .whoweare .col-4 {
     height: 400px;
 }
 .more-btn {
     text-align: right;
+    margin: 20px 0;
 }
 
 /*part3 - committment*/
@@ -42,6 +47,7 @@ transform: translate(0%, 15%);
     text-align: center;
     height: 400px;
     padding-top: 50px;
+    margin-top: 50px;
     margin-bottom: 180px;
 }
 

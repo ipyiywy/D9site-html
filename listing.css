@@ -1,0 +1,23 @@
+.listing-banner {
+    background: #eee;
+    padding: 40px;
+}
+
+.banner {
+    margin-bottom: 25px;
+}
+
+h1::after {
+    content: "";
+background: darkgray;
+height: 10px;
+width: 70px;
+display: block;
+margin-top: 25px;
+margin-left: -15px;
+}
+
+/*listing content*/
+.content-wrapper {
+    margin-top: 40px;
+}
