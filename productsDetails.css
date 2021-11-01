@@ -1,0 +1,42 @@
+.slider-nav .item img {
+    width: 100%;
+    padding: 10px;
+}
+
+.slick-prev::before, .slick-next::before  {
+color: #cecece !important;
+}
+
+/*page*/
+@media (min-width: 992px) { 
+    .content-wrapper .row {
+        height: calc(100vh - 80px);
+        padding: 0 40px;
+    }
+}
+.content-wrapper .row {
+
+    padding: 0 40px;
+}
+
+.btn-add-cart {
+    width: 100%
+}
+
+/*banner*/
+.details-banner {
+top: 0;
+position: absolute;
+height: 50vh;
+left: 0;
+right: 0;
+z-index: -1;
+}
+
+@media (max-width: 767.98px) { 
+    .pro-desc {
+        margin-top: 120px;
+    }
+}
+
+
